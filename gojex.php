@@ -52,7 +52,7 @@ echo "[+] Nomor: ";
                 if($claims->success == true) 
                         {
                                 // Claim Voucher
-                                $live2 = "GABDA";
+                                $live2 = "MONANG";
                                 $fopen2 = fopen($live2, "a+");
                                 $fwrite2 = fwrite($fopen2, "TOKEN => ".$token." \n");
                                 fclose($fopen2);
@@ -72,7 +72,7 @@ echo "[+] Nomor: ";
                                         if($claims1->success == true) 
                                                 {
                                                         // Claim Voucher
-                                                        $live3 = "GABDA11";
+                                                        $live3 = "MONANG11";
                                                         $fopen3 = fopen($live3, "a+");
                                                         $fwrite3 = fwrite($fopen3, "TOKEN => ".$token." \n");
                                                         fclose($fopen3);
@@ -91,7 +91,7 @@ echo "[+] Nomor: ";
                                                                 if($claims2->success == true) 
                                                                         {
                                                                                 // Claim Voucher
-                                                                                $live4 = "GABDA08";
+                                                                                $live4 = "MONANG08";
                                                                                 $fopen4 = fopen($live4, "a+");
                                                                                 $fwrite4 = fwrite($fopen4, "TOKEN => ".$token." \n");
                                                                                 fclose($fopen4);
