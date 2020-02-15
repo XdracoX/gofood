@@ -46,7 +46,7 @@ echo "[+] Nomor: ";
                 echo " [+] Token Tersimpan di ~> ".$live." \n\n";
                 
                 // SANTAI19
-                echo "[!] 20K + 10K\n";
+                echo "[!] 15K + 10K\n";
                 $data3 = '{"promo_code":"GOFOOD021120A"}';
                 $claim = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data3, $headers);
                 $claims = json_decode($claim[0]); 
@@ -66,8 +66,8 @@ echo "[+] Nomor: ";
                                     echo "\n";
 
                                     // SANTAI11
-                                        echo "[!] 15K + 10K \n";
-                                        $data4 = '{"promo_code":"GOFOOD021120A"}';
+                                        echo "[!] 20K + 10K \n";
+                                        $data4 = '{"promo_code":"GOFOODSENANG12"}';
                                         $claim1 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data4, $headers);
                                         $claims1 = json_decode($claim1[0]);
                                         if($claims1->success == true) 
@@ -86,7 +86,7 @@ echo "[+] Nomor: ";
 
                                                             // SANTAI08
                                                                 echo "[!] 10K +10K  \n";
-                                                                $data5 = '{"promo_code":"GOFOOD021120A"}';
+                                                                $data5 = '{"promo_code":"GOFOODSANTAI08"}';
                                                                 $claim2 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data5, $headers);
                                                                 $claims2 = json_decode($claim2[0]);
                                                                 if($claims2->success == true) 
@@ -280,5 +280,4 @@ function curl($url, $fields = null, $headers = null)
             $httpcode
         );
     } 
-    
-    ?>
+?>
